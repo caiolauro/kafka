@@ -25,10 +25,10 @@ def delivery_report(err, msg):
 
 order = {
     "order_id": str(uuid.uuid4()),
-    "user": "Federico",
+    "user": "Marcia",
     "item": "Spaghetti Carbonara",
     "quantity": 2,
-    "total": 100.00,
+    "total": 25.00,
     "status": "pending",
     "timestamp": datetime.now().isoformat(),
 }
